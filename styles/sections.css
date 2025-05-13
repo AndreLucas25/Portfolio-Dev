@@ -1,0 +1,47 @@
+#intro{
+    .image{
+    background-image: url(../assets/imagens/Background_Intro.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    header{
+        justify-items: center;
+        align-items: center;
+
+        img{
+            padding-block: 140px 56px;
+        }
+
+        
+        div:nth-child(2){
+            justify-items: center;
+
+            h2{
+                margin-bottom: 8px;
+            }
+
+            p{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    #tags{
+        display: flex;
+        margin-top: 100px;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .tag{
+        display: flex;
+        background-color: var(--gray-300);
+        border-radius: 50px;
+        padding-inline: 16px;
+        padding-block: 8px;
+        align-items: center;
+    }
+}
+
