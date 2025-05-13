@@ -12,6 +12,11 @@
   color: var(--gray-600);
 }
 
+.title-sm{
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
 .subtitulo{
   font: var(--subtitle)
 }
@@ -45,3 +50,4 @@
 .gap-24{
   gap: 24px;
 }
+
