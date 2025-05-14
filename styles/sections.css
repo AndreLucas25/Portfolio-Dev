@@ -162,3 +162,26 @@
     }
 }
 
+#contact{
+    background-image: url(../assets/imagens/Background_Contacts.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 128px 200px;
+    justify-items: center;
+    gap: 48px;
+
+    header{
+        text-align: center;
+    }
+
+    .button{
+        background-color: var(--gray-300);
+        border-radius: 8px;
+        padding: 20px;
+        align-items: center;
+    }
+    .button:hover{
+        border: 1px solid var(--blue);
+    }
+}
