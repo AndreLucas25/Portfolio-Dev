@@ -35,12 +35,32 @@
   color: var(--red);
 }
 
+.purple{
+        color: var(--purple);
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col{
+  flex-flow: column;
+}
+
 .grid{
   display: grid;
 }
 
+.grid-col{
+  grid-template-columns: 2fr 15.5fr 1fr;
+}
+
 .gap-8{
   gap: 8px;
+}
+
+.gap-16{
+  gap: 16px;
 }
 
 .gap-20{
@@ -51,3 +71,10 @@
   gap: 24px;
 }
 
+.gap-56{
+  gap: 56px;
+}
+
+relative{
+  position: relative;
+}

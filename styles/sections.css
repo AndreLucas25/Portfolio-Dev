@@ -6,12 +6,41 @@
     background-size: cover;
     }
 
+    .absolute{
+        position: absolute;
+        left: 54%;
+        top: 19%;
+    }
+
     header{
         justify-items: center;
         align-items: center;
 
-        img{
+        .img{
             padding-block: 140px 56px;
+        }
+
+        .borda{
+            position: absolute; 
+            top: 18.3%;
+            left: 46.5%;
+            width: 105px;
+            height: 105px;
+            border: 3px solid var(--red);
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .fotomy{
+            
+            width: 94px;
+            object-fit: cover; 
+        }
+
+        .code{
+            position: absolute;
+            top: 28%;
+            left: 51%;
         }
 
         
@@ -47,7 +76,7 @@
 
 #projeto{
     background-color: var(--gray-200);
-    height: 100vh;
+    min-height: 100vh;
     padding-block: 50px 184px;
     gap: 56px;
     
@@ -56,9 +85,10 @@
     }
 
     #projetos{
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 1040px;
-        height: 584px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-height: 584px;
+        justify-content: center;
 
         .projectcard{
             background-color: var(--gray-300);
@@ -72,7 +102,7 @@
             padding: 12px;
             width: 330px;
             height: 280px;
-
+            
             div{
                 display: flex;
                 flex-direction: column;
@@ -98,6 +128,37 @@
                 border-radius: 8px;
             }
         }
+
+        .projectcard:hover{
+            border: 1px solid var(--gray-400);
+        }
     }
 
 }
+
+#services{
+    background-color: var(--gray-100);
+    justify-items: center;
+    padding-block: 88px 120px;
+
+    header{
+        text-align: center;
+    }
+
+    .service{
+        border: 1px solid var(--gray-200);
+        padding: 20px;
+        border-radius: 12px;
+        
+        img{
+            margin-bottom: 20px;
+        }
+
+        .text{
+            min-width: 240px;
+            display: grid;
+            gap: 8px;
+        }
+    }
+}
+
