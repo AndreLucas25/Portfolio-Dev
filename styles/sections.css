@@ -15,6 +15,7 @@
     header{
         justify-items: center;
         align-items: center;
+        position: relative;
 
         .img{
             padding-block: 140px 56px;
