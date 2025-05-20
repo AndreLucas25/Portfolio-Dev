@@ -86,9 +86,10 @@
     }
 
     #projetos{
+        box-sizing: border-box;
         flex-direction: row;
         flex-wrap: wrap;
-        max-height: 584px;
+        
         justify-content: center;
 
         .projectcard{
